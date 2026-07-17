@@ -14,4 +14,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://sasiedzi.pl/sitemap.xml
+Sitemap: https://hannahaj.github.io/sasiedzi-website/sitemap-index.xml
