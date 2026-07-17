@@ -1,43 +1,46 @@
-# Astro Starter Kit: Minimal
+# Sąsiedzi — strona firmowa
 
-```sh
-npm create astro@latest -- --template minimal
+Jednostronicowy landing page marki **Sąsiedzi** — agencji z Wrocławia tworzącej strony internetowe, identyfikację wizualną i SEO lokalne dla małych firm. Strona docelowa: sasiedzi.pl.
+
+## Stack
+
+- [Astro](https://astro.build) (static site generator, output: czysty HTML/CSS)
+- Vanilla CSS (własne style, brak frameworka UI)
+- Google Fonts: Poppins + Manrope
+- SEO: meta tags, canonical, Open Graph, JSON-LD (LocalBusiness, FAQPage), sitemap.xml, robots.txt
+
+## Struktura
+
+```
+src/pages/
+  index.astro       # cała strona — sekcje, style, skrypty inline
+public/
+  projekty/         # zrzuty ekranu projektów portfolio (PNG)
+  logo-svg/         # pliki logo SVG (warianty kolorystyczne)
+  favicon.svg       # ikona marki
+  robots.txt        # dopuszcza wszystkich botów + boty AI (GEO)
+.github/
+  workflows/
+    deploy.yml      # auto-deploy na GitHub Pages przy każdym push do main
+docs/
+  roadmapa.md       # plan rozwoju strony
+  seo-checklist.md  # checklisty SEO przed/po wdrożeniu
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Uruchomienie
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```
+npm install
+npm run dev    # http://localhost:4321/sasiedzi-website/
+npm run build  # build produkcyjny — uruchamiaj przed każdym PR
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Współpraca
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Praca na branchach (`bartek/*`, `hanna/*`) + Pull Requesty do `main` (squash merge). Szczegółowa procedura i twarde zasady: [CLAUDE.md](CLAUDE.md). Roadmapa projektu: [docs/roadmapa.md](docs/roadmapa.md).
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Wdrożenie
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Hosting: GitHub Pages (auto-deploy przez GitHub Actions po każdym push do `main`).  
+Strona: https://hannahaj.github.io/sasiedzi-website/  
+Docelowo: własna domena `sasiedzi.pl` — zmienić `site` i `base` w `astro.config.mjs` oraz zaktualizować URL w `canonical`, `og:url` i `robots.txt`.
