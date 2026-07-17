@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Dopuszczenie botów AI pod GEO (widoczność w ChatGPT, Claude, Perplexity)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://sasiedzi.pl/sitemap.xml

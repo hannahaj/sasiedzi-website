@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 60" width="536" height="120">
+
+<g>
+  <rect x="2" y="2" width="68" height="56" rx="12" fill="#FAF3E8"></rect>
+  <circle cx="13" cy="12" r="3.5" fill="#D8A039"></circle>
+  <circle cx="24" cy="12" r="3.5" fill="#14213D"></circle>
+  <circle cx="35" cy="12" r="3.5" fill="#14213D"></circle>
+  <path d="M22 52 V37 L36 25 L50 37 V52 Z" fill="#14213D" stroke="#14213D" stroke-width="4" stroke-linejoin="round"></path>
+  <rect x="31" y="39" width="10" height="11" rx="3" fill="#D8A039"></rect></g>
+<text x="86" y="44" font-family="Poppins, sans-serif" font-weight="700" font-size="36" fill="#FAF3E8">Sąsiedzi</text>
+</svg>
