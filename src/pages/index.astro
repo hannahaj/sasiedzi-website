@@ -213,7 +213,9 @@
     .section-projekty { background: #FFFFFF; border-top: 1px solid #EADFCC; border-bottom: 1px solid #EADFCC; padding: 96px 64px; display: flex; flex-direction: column; align-items: center; gap: 48px; }
     .section-projekty h3.section-title { margin: 0; font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 38px; color: #14213D; }
     .projekt-card { display: flex; flex-direction: column; gap: 14px; }
-    .projekt-img { width: 100%; aspect-ratio: 4 / 3; background: #EADFCC; border-radius: 16px; display: flex; align-items: center; justify-content: center; color: #5A6478; font-size: 14px; font-style: italic; }
+    .projekt-img { width: 100%; aspect-ratio: 4 / 3; border-radius: 16px; overflow: hidden; }
+    .projekt-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease; }
+    .projekt-card:hover .projekt-img img { transform: scale(1.03); }
     .projekt-card h3 { margin: 0; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 18px; }
     .projekt-card p { margin: 0; font-size: 14px; color: #5A6478; }
 
@@ -501,24 +503,30 @@
     </div>
     <div class="grid-3">
       <div class="projekt-card">
-        <div class="projekt-img">Zrzut projektu 1</div>
+        <div class="projekt-img">
+          <img src="/sasiedzi-website/projekty/tagtracks.png" alt="Strona internetowa TagTracks" loading="lazy" />
+        </div>
         <div>
-          <h3>Nazwa projektu</h3>
-          <p>Strona + logo · branża</p>
+          <h3>TagTracks</h3>
+          <p>Strona internetowa · SEO lokalne</p>
         </div>
       </div>
       <div class="projekt-card">
-        <div class="projekt-img">Zrzut projektu 2</div>
+        <div class="projekt-img">
+          <img src="/sasiedzi-website/projekty/znicze-karasia.png" alt="Strona internetowa Znicze Wujka Karasia" loading="lazy" />
+        </div>
         <div>
-          <h3>Nazwa projektu</h3>
-          <p>Strona + SEO · branża</p>
+          <h3>Znicze Wujka Karasia</h3>
+          <p>Strona internetowa · SEO lokalne · Logo</p>
         </div>
       </div>
       <div class="projekt-card">
-        <div class="projekt-img">Zrzut projektu 3</div>
+        <div class="projekt-img">
+          <img src="/sasiedzi-website/projekty/katarzyna-pawlak.png" alt="Strona internetowa Katarzyna Pawlak" loading="lazy" />
+        </div>
         <div>
-          <h3>Nazwa projektu</h3>
-          <p>Logo + identyfikacja · branża</p>
+          <h3>Katarzyna Pawlak</h3>
+          <p>Strona internetowa</p>
         </div>
       </div>
     </div>
