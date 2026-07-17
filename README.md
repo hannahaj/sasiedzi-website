@@ -37,7 +37,7 @@ npm run build  # build produkcyjny, uruchamiaj przed każdym PR
 
 ## Współpraca
 
-Praca na branchach (`bartek/*`, `hanna/*`) + Pull Requesty do `main` (squash merge). Szczegółowa procedura i twarde zasady: [CLAUDE.md](CLAUDE.md). Roadmapa projektu: [docs/roadmapa.md](docs/roadmapa.md).
+Praca na branchach (`bartek/*`, `hanna/*`) + Pull Requesty do `main` (squash merge). Instrukcja krok po kroku: [docs/wspolpraca.md](docs/wspolpraca.md). Twarde zasady i konwencje: [CLAUDE.md](CLAUDE.md). Roadmapa projektu: [docs/roadmapa.md](docs/roadmapa.md).
 
 ## Wdrożenie
 
