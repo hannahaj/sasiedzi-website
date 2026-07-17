@@ -12,7 +12,7 @@
 
 ## Po wdrożeniu na własną domenę
 
-- [ ] Zaktualizować `site` w `astro.config.mjs` na `https://sasiedzi.pl`
+- [ ] Zaktualizować `site` w `astro.config.mjs` na `https://hejsasiedzi.pl`
 - [ ] Usunąć `base: '/sasiedzi-website'` z `astro.config.mjs`
 - [ ] Zaktualizować `canonical` i `og:url` w `index.astro`
 - [ ] Zaktualizować `Sitemap:` w `robots.txt`

@@ -16,7 +16,7 @@
 ## Do zrobienia
 
 - [ ] Formularz kontaktowy: podpiąć realną wysyłkę (np. Resend lub Formspree)
-- [ ] Własna domena sasiedzi.pl: zaktualizować config i URLe
+- [ ] Własna domena hejsasiedzi.pl: zaktualizować config i URLe
 - [ ] Google Search Console: dodać właściwość i przesłać sitemap
 - [ ] Opinie klientów: dodać sekcję z Google Reviews lub ręcznymi cytatami
 - [ ] Zdjęcie OG (og:image): grafika do podglądu przy udostępnianiu linku
