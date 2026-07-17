@@ -1,4 +1,4 @@
-# Roadmapa — Sąsiedzi
+# Roadmapa. Sąsiedzi
 
 ## Zrobione
 
@@ -9,24 +9,24 @@
 - [x] robots.txt z botami AI (GEO)
 - [x] Favicon z logo marki
 - [x] Portfolio: TagTracks, Znicze Wujka Karasia, Katarzyna Pawlak
-- [x] GitHub Actions — auto-deploy na GitHub Pages
+- [x] GitHub Actions (auto-deploy na GitHub Pages)
 - [x] Wersja mobilna (responsywna)
 - [x] Rozbudowana stopka SEO (nawigacja, usługi, dane kontaktowe)
 
 ## Do zrobienia
 
-- [ ] Formularz kontaktowy — podpiąć realną wysyłkę (np. Resend lub Formspree)
-- [ ] Własna domena sasiedzi.pl — zaktualizować config i URLe
-- [ ] Google Search Console — dodać właściwość i przesłać sitemap
-- [ ] Opinie klientów — dodać sekcję z Google Reviews lub ręcznymi cytatami
-- [ ] Zdjęcie OG (og:image) — grafika do podglądu przy udostępnianiu linku
+- [ ] Formularz kontaktowy: podpiąć realną wysyłkę (np. Resend lub Formspree)
+- [ ] Własna domena sasiedzi.pl: zaktualizować config i URLe
+- [ ] Google Search Console: dodać właściwość i przesłać sitemap
+- [ ] Opinie klientów: dodać sekcję z Google Reviews lub ręcznymi cytatami
+- [ ] Zdjęcie OG (og:image): grafika do podglądu przy udostępnianiu linku
 - [ ] Rozbudowa portfolio o kolejne projekty
 
-## Podstrony usług — do rozważenia w przyszłości
+## Podstrony usług. Do rozważenia w przyszłości
 
-Obecnie strona to jeden landing page. To wystarczy na start — jedna mocna strona bije dziesięć słabych.
+Obecnie strona to jeden landing page. To wystarczy na start. Jedna mocna strona bije dziesięć słabych.
 
-Gdy marka okrzepnie i pojawią się pierwsze klientów, warto rozbudować serwis o podstrony usług. Każda z nich może rankować niezależnie na inne słowo kluczowe:
+Gdy marka okrzepnie i pojawią się pierwsze projekty, warto rozbudować serwis o podstrony usług. Każda z nich może rankować niezależnie na inne słowo kluczowe:
 
 | Podstrona | Docelowa fraza |
 |---|---|
@@ -36,4 +36,4 @@ Gdy marka okrzepnie i pojawią się pierwsze klientów, warto rozbudować serwis
 | `/strony-dla-hydraulikow` | "strony internetowe hydraulik Wrocław" |
 | `/strony-dla-restauracji` | "strony internetowe restauracja Wrocław" |
 
-Astro obsługuje podstrony natywnie — wystarczy dodać pliki do `src/pages/`. Nie wymaga przepisywania projektu.
+Astro obsługuje podstrony natywnie. Wystarczy dodać pliki do `src/pages/`. Nie wymaga przepisywania projektu.
