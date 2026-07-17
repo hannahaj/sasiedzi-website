@@ -252,10 +252,29 @@
     .btn-submit:hover { background: #E5B155; }
 
     /* Footer */
-    footer { background: #0E1830; padding: 28px 64px; display: flex; align-items: center; justify-content: space-between; }
-    .footer-logo { display: flex; align-items: center; gap: 10px; }
+    footer { background: #0E1830; padding: 64px 64px 32px; }
+    .footer-top { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 48px; max-width: 1140px; margin: 0 auto 48px; }
+    .footer-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
     .footer-logo-text { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; color: #FAF3E8; }
-    .footer-copy { font-size: 13.5px; color: #7A849B; }
+    .footer-tagline { font-size: 14px; line-height: 1.6; color: #7A849B; margin: 0 0 20px; max-width: 240px; }
+    .footer-contact { display: flex; flex-direction: column; gap: 6px; }
+    .footer-contact a, .footer-contact span { font-size: 14px; color: #B9C0D0; }
+    .footer-contact a:hover { color: #D8A039; }
+    .footer-col h4 { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 13px; color: #FAF3E8; letter-spacing: 0.06em; text-transform: uppercase; margin: 0 0 16px; }
+    .footer-col ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul li a { font-size: 14px; color: #7A849B; transition: color 0.2s; }
+    .footer-col ul li a:hover { color: #D8A039; }
+    .footer-col ul li span { font-size: 14px; color: #7A849B; }
+    .footer-bottom { border-top: 1px solid #1E2D4A; padding-top: 24px; max-width: 1140px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 13px; color: #4A5568; }
+    @media (max-width: 900px) {
+      footer { padding: 48px 24px 24px; }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+    }
+    @media (max-width: 560px) {
+      .footer-top { grid-template-columns: 1fr; }
+    }
 
     /* Responsywność */
     @media (max-width: 900px) {
@@ -606,18 +625,73 @@
 
   <!-- FOOTER -->
   <footer>
-    <div class="footer-logo">
-      <svg width="28" height="24" viewBox="0 0 72 60" fill="none">
-        <rect x="2" y="2" width="68" height="56" rx="12" fill="#FAF3E8"/>
-        <circle cx="13" cy="12" r="3.5" fill="#D8A039"/>
-        <circle cx="24" cy="12" r="3.5" fill="#14213D"/>
-        <circle cx="35" cy="12" r="3.5" fill="#14213D"/>
-        <path d="M22 52 V37 L36 25 L50 37 V52 Z" fill="#14213D" stroke="#14213D" stroke-width="4" stroke-linejoin="round"/>
-        <rect x="31" y="39" width="10" height="11" rx="3" fill="#D8A039"/>
-      </svg>
-      <span class="footer-logo-text">Sąsiedzi</span>
+    <div class="footer-top">
+
+      <!-- Kolumna 1: marka -->
+      <div>
+        <div class="footer-logo">
+          <svg width="28" height="24" viewBox="0 0 72 60" fill="none">
+            <rect x="2" y="2" width="68" height="56" rx="12" fill="#FAF3E8"/>
+            <circle cx="13" cy="12" r="3.5" fill="#D8A039"/>
+            <circle cx="24" cy="12" r="3.5" fill="#14213D"/>
+            <circle cx="35" cy="12" r="3.5" fill="#14213D"/>
+            <path d="M22 52 V37 L36 25 L50 37 V52 Z" fill="#14213D" stroke="#14213D" stroke-width="4" stroke-linejoin="round"/>
+            <rect x="31" y="39" width="10" height="11" rx="3" fill="#D8A039"/>
+          </svg>
+          <span class="footer-logo-text">Sąsiedzi</span>
+        </div>
+        <p class="footer-tagline">Strony internetowe, logo i SEO lokalne dla małych firm we Wrocławiu i całej Polsce.</p>
+        <div class="footer-contact">
+          <a href="mailto:hej@sasiedzi.pl">hej@sasiedzi.pl</a>
+          <span>692 168 558</span>
+          <span>Wrocław, Krzyki</span>
+        </div>
+      </div>
+
+      <!-- Kolumna 2: nawigacja -->
+      <div class="footer-col">
+        <h4>Strona</h4>
+        <ul>
+          <li><a href="#uslugi">Co robimy</a></li>
+          <li><a href="#jak">Jak działamy</a></li>
+          <li><a href="#projekty">Nasze projekty</a></li>
+          <li><a href="#cennik">Cennik</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <!-- Kolumna 3: usługi -->
+      <div class="footer-col">
+        <h4>Usługi</h4>
+        <ul>
+          <li><span>Strony internetowe Wrocław</span></li>
+          <li><span>SEO lokalne Wrocław</span></li>
+          <li><span>Logo i identyfikacja wizualna</span></li>
+          <li><span>Strony dla firm usługowych</span></li>
+          <li><span>Strony dla restauracji i kawiarni</span></li>
+          <li><span>Pakiet Strona + Marka</span></li>
+        </ul>
+      </div>
+
+      <!-- Kolumna 4: branże -->
+      <div class="footer-col">
+        <h4>Branże</h4>
+        <ul>
+          <li><span>Hydraulicy</span></li>
+          <li><span>Firmy budowlane</span></li>
+          <li><span>Klimatyzacja i wentylacja</span></li>
+          <li><span>Elektrycy</span></li>
+          <li><span>Fryzjerzy i salony kosmetyczne</span></li>
+          <li><span>Gabinety medycyny estetycznej</span></li>
+        </ul>
+      </div>
+
     </div>
-    <span class="footer-copy">hej@sasiedzi.pl · Robimy strony sąsiadom.</span>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2025 Sąsiedzi. Wszelkie prawa zastrzeżone.</span>
+      <span class="footer-copy">Projekt i realizacja: Sąsiedzi</span>
+    </div>
   </footer>
 
   <script>

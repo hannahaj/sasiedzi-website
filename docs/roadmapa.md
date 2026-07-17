@@ -11,6 +11,7 @@
 - [x] Portfolio: TagTracks, Znicze Wujka Karasia, Katarzyna Pawlak
 - [x] GitHub Actions — auto-deploy na GitHub Pages
 - [x] Wersja mobilna (responsywna)
+- [x] Rozbudowana stopka SEO (nawigacja, usługi, dane kontaktowe)
 
 ## Do zrobienia
 
@@ -20,3 +21,19 @@
 - [ ] Opinie klientów — dodać sekcję z Google Reviews lub ręcznymi cytatami
 - [ ] Zdjęcie OG (og:image) — grafika do podglądu przy udostępnianiu linku
 - [ ] Rozbudowa portfolio o kolejne projekty
+
+## Podstrony usług — do rozważenia w przyszłości
+
+Obecnie strona to jeden landing page. To wystarczy na start — jedna mocna strona bije dziesięć słabych.
+
+Gdy marka okrzepnie i pojawią się pierwsze klientów, warto rozbudować serwis o podstrony usług. Każda z nich może rankować niezależnie na inne słowo kluczowe:
+
+| Podstrona | Docelowa fraza |
+|---|---|
+| `/strony-internetowe-wroclaw` | "strony internetowe Wrocław" |
+| `/seo-lokalne-wroclaw` | "SEO lokalne Wrocław", "pozycjonowanie lokalne" |
+| `/logo-identyfikacja-wizualna` | "logo dla małej firmy Wrocław" |
+| `/strony-dla-hydraulikow` | "strony internetowe hydraulik Wrocław" |
+| `/strony-dla-restauracji` | "strony internetowe restauracja Wrocław" |
+
+Astro obsługuje podstrony natywnie — wystarczy dodać pliki do `src/pages/`. Nie wymaga przepisywania projektu.
