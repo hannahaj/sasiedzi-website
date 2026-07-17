@@ -8,7 +8,7 @@
 - [x] Sitemap (auto-generowany przez @astrojs/sitemap)
 - [x] robots.txt z botami AI (GEO)
 - [x] Favicon z logo marki
-- [x] Portfolio: TagTracks, Znicze Wujka Karasia, Katarzyna Pawlak
+- [x] Portfolio: TagTracks, Znicze Wujka Karasia, Markoni Transport Ciężarowy
 - [x] GitHub Actions (auto-deploy na GitHub Pages)
 - [x] Wersja mobilna (responsywna)
 - [x] Rozbudowana stopka SEO (nawigacja, usługi, dane kontaktowe)
