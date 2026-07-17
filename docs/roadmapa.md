@@ -7,14 +7,15 @@
 - [x] SEO: title, meta description, H1-H3, Open Graph, canonical, JSON-LD (LocalBusiness + FAQPage)
 - [x] Sitemap (auto-generowany przez @astrojs/sitemap)
 - [x] robots.txt z botami AI (GEO)
-- [x] Favicon z logo marki
-- [x] Portfolio: TagTracks, Znicze Wujka Karasia, Markoni Transport Ciężarowy
+- [x] Favicon z logo marki (link dodany, plik z oficjalnych assets — wymaga dopracowania)
+- [x] Portfolio: TagTracks, Znicze Wujka Karasia, Transport Ciężarowy Marek Stachowiak
 - [x] GitHub Actions (auto-deploy na GitHub Pages)
 - [x] Wersja mobilna (responsywna)
 - [x] Rozbudowana stopka SEO (nawigacja, usługi, dane kontaktowe)
 
 ## Do zrobienia
 
+- [ ] Favicon: dopracować — aktualny SVG może wymagać korekty rozmiaru lub wersji pod ciemne/jasne tło przeglądarki
 - [ ] Formularz kontaktowy: podpiąć realną wysyłkę (np. Resend lub Formspree)
 - [ ] Własna domena hejsasiedzi.pl: zaktualizować config i URLe
 - [ ] Google Search Console: dodać właściwość i przesłać sitemap
