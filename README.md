@@ -1,6 +1,6 @@
 # Sąsiedz - strona firmowa
 
-Jednostronicowy landing page marki **Sąsiedzi**, agencji z Wrocławia tworzącej strony internetowe, identyfikację wizualną i SEO lokalne dla małych firm. Strona docelowa: sasiedzi.pl.
+Jednostronicowy landing page marki **Sąsiedzi**, agencji z Wrocławia tworzącej strony internetowe, identyfikację wizualną i SEO lokalne dla małych firm. Strona docelowa: hejsasiedzi.pl.
 
 ## Stack
 
@@ -37,10 +37,10 @@ npm run build  # build produkcyjny, uruchamiaj przed każdym PR
 
 ## Współpraca
 
-Praca na branchach (`bartek/*`, `hanna/*`) + Pull Requesty do `main` (squash merge). Szczegółowa procedura i twarde zasady: [CLAUDE.md](CLAUDE.md). Roadmapa projektu: [docs/roadmapa.md](docs/roadmapa.md).
+Praca na branchach (`bartek/*`, `hanna/*`) + Pull Requesty do `main` (squash merge). Instrukcja krok po kroku: [docs/wspolpraca.md](docs/wspolpraca.md). Twarde zasady i konwencje: [CLAUDE.md](CLAUDE.md). Roadmapa projektu: [docs/roadmapa.md](docs/roadmapa.md).
 
 ## Wdrożenie
 
 Hosting: GitHub Pages (auto-deploy przez GitHub Actions po każdym push do `main`).  
 Strona: https://hannahaj.github.io/sasiedzi-website/  
-Docelowo: własna domena `sasiedzi.pl`. Zmienić `site` i `base` w `astro.config.mjs` oraz zaktualizować URL w `canonical`, `og:url` i `robots.txt`.
+Docelowo: własna domena `hejsasiedzi.pl`. Zmienić `site` i `base` w `astro.config.mjs` oraz zaktualizować URL w `canonical`, `og:url` i `robots.txt`.

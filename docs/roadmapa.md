@@ -8,7 +8,7 @@
 - [x] Sitemap (auto-generowany przez @astrojs/sitemap)
 - [x] robots.txt z botami AI (GEO)
 - [x] Favicon z logo marki
-- [x] Portfolio: TagTracks, Znicze Wujka Karasia, Katarzyna Pawlak
+- [x] Portfolio: TagTracks, Znicze Wujka Karasia, Markoni Transport Ciężarowy
 - [x] GitHub Actions (auto-deploy na GitHub Pages)
 - [x] Wersja mobilna (responsywna)
 - [x] Rozbudowana stopka SEO (nawigacja, usługi, dane kontaktowe)
@@ -16,7 +16,7 @@
 ## Do zrobienia
 
 - [ ] Formularz kontaktowy: podpiąć realną wysyłkę (np. Resend lub Formspree)
-- [ ] Własna domena sasiedzi.pl: zaktualizować config i URLe
+- [ ] Własna domena hejsasiedzi.pl: zaktualizować config i URLe
 - [ ] Google Search Console: dodać właściwość i przesłać sitemap
 - [ ] Opinie klientów: dodać sekcję z Google Reviews lub ręcznymi cytatami
 - [ ] Zdjęcie OG (og:image): grafika do podglądu przy udostępnianiu linku
