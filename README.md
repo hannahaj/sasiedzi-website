@@ -1,4 +1,4 @@
-# Sąsiedzi. Strona firmowa
+# Sąsiedz - strona firmowa
 
 Jednostronicowy landing page marki **Sąsiedzi**, agencji z Wrocławia tworzącej strony internetowe, identyfikację wizualną i SEO lokalne dla małych firm. Strona docelowa: sasiedzi.pl.
 
